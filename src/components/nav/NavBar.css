@@ -2,18 +2,54 @@
     text-align: center;
   }
   
-  
-  .App-header {
-    background-color: #F6F6F6;
-    min-height: 100vh;
+  ul {
+
+      list-style-type: none
+  }
+
+
+
+  .navbar {
+    /* background-color: #494eee; */
+    min-height: 1vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+  
   }
   
   .placeholderTitle {
     color: #000;
   }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #3803e4;
+    color: white;
+  }
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}

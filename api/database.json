@@ -1,10 +1,31 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "username": "Max",
-        "email": "me@me.com"
-      }
-    ],
-    "cards": []
-  }
+  "users": [
+    {
+      "id": 1,
+      "username": "Max",
+      "email": "me@me.com"
+    },
+    {
+      "email": "max@email.com",
+      "password": "abc123",
+      "name": "",
+      "fullName": "Max Aguilar",
+      "id": 2
+    },
+    {
+      "email": "a26001977@gmail.com",
+      "password": "abc123",
+      "name": "",
+      "fullName": "Max Aguilar",
+      "id": 3
+    }
+  ],
+  "cards": [
+    {
+      "userId": 1,
+      "image": "https://images.pokemontcg.io/base1/10_hires.png",
+      "isFavorite": true,
+      "id": 1
+    }
+  ]
+}
