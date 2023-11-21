@@ -1,0 +1,20 @@
+.logContainer {
+  height: 100vh;
+  background-image: url("https://w.wallha.com/ws/14/ogOdyeuZ.png");
+  background-repeat: repeat-y repeat-x;
+}
+
+fieldset {
+    color: white;
+    display: flexbox;
+    width: 30em;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, .6);
+    border:  none;
+ 
+}
+
+.emptySpace {
+    background-color:rgba(0, 0, 0, 0.406);
+    height: 8em
+}

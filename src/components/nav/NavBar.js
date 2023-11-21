@@ -1,37 +1,39 @@
-import { Link, } from "react-router-dom"
+import React from "react"
+import { Link, NavLink, Navigate } from "react-router-dom"
 import "./NavBar.css"
+
 
 
 export const NavBar = () => {
 
   return (
-    <nav className="navbar">
+   
+    
+    <div className="topnav">
+         <a className="active">
+              <Link className="nav-link" to="/">Home</Link>
+            </a>
+    
+            <a className="nav-item">
+              <Link className="nav-link" to="/Gallery">Gallery</Link>
+            </a>
+    
+            <a className="nav-item">
+              <Link className="nav-link" to="/Booster">Booster</Link>
+            </a>
 
-      <ul className="nav">
-      <li className="nav-item">
-          <Link className="nav-link" to="/">Home</Link>
-        </li>
+            <a className="nav-item">
+              <Link className="nav-link" to="/Collection">Collection</Link>
+            </a>
 
-        <li className="nav-item">
-          <Link className="nav-link" to="/Gallery">Gallery</Link>
-        </li>
+    
+            <a className="navbar__item navbar__logout">
+                    <Link className="navbar__link" to="/login" onClick={() => {
+                        localStorage.removeItem("nutshell_user")
+                        Navigate("/", {replace: true})
+                    }}>Logout</Link>
+                </a>
+</div>
 
-        <li className="nav-item">
-          <Link className="nav-link" to="/Booster">Booster</Link>
-        </li>
-      
-        {/* <li className="nav-item">
-          <Link className="nav-link" to="/Gallery">Gallery</Link>
-        </li> */}
-
-        
-        {/* <li className="navbar__item navbar__logout">
-                <Link className="navbar__link" to="" onClick={() => {
-                    localStorage.removeItem("nutshell_user")
-                    navigate("/", {replace: true})
-                }}>Logout</Link>
-            </li> */}
-      </ul>
-    </nav>
-  )
+)
 }

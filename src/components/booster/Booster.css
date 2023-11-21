@@ -1,0 +1,72 @@
+.boosterPack1 {
+    width:50em;
+    -webkit-filter: drop-shadow(5px 5px 5px #111111);
+    filter: drop-shadow(5px 5px 5px #111111);
+}
+
+.boosterPack2 {
+    width:50em;
+    -webkit-filter: drop-shadow(5px 5px 5px #111111);
+    filter: drop-shadow(5px 5px 5px #111111);
+}
+
+.boosterPack3 {
+    width:50em;
+    -webkit-filter: drop-shadow(5px 5px 5px #111111);
+    filter: drop-shadow(5px 5px 5px #111111);
+}
+
+.boosterPack4 {
+    width:50em;
+    -webkit-filter: drop-shadow(5px 5px 5px #111111);
+    filter: drop-shadow(5px 5px 5px #111111);
+}
+
+.boosterpack {
+    display: inline-flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    margin: 5px;
+}   
+
+
+.booster {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 18em;
+    width:auto; 
+    border: 4px solid;
+    border-radius: 3%;
+    border-color: rgb(241, 210, 12);
+    box-shadow: rgba(0, 0, 0, 2) 0px 3px 8px;
+    transition: transform .2s;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px, rgba(0, 0, 0, 0.2) 0px 4px 2px, rgba(0, 0, 0, 0.2) 0px 8px 4px, rgba(0, 0, 0, 0.2) 0px 16px 8px, rgba(0, 0, 0, 0.2) 0px 32px 16px; */
+  
+  
+  
+    
+  }
+  
+  .booster:hover {
+    transform: scale(1.5); 
+  }
+
+  .Booster {
+    margin: 8%
+  }
+
+  .unclickable {
+    pointer-events: none;
+  }
+
+  .addButton {
+    color: rgb(171, 189, 255);
+    background-color: rgba(0, 0, 0, 0.90);
+    margin-right: 70%;
+     padding: 5px;
+     border-radius: 18px;
+  }

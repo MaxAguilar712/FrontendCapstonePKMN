@@ -1,20 +1,11 @@
 .App {
   text-align: center;
-  background-image: url("https://png.pngtree.com/png-vector/20220925/ourmid/pngtree-seamless-pattern-of-pokeball-icon-on-gray-backgroundvector-illustration-vector-png-image_22859508.jpg");
-  background-repeat: repeat-y repeat-x;
-  background-color: #282c34;
+ 
+  
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
