@@ -1,3 +1,15 @@
+DISCLAIMER: *I do not own the rights to any "Pocket Monsters" or "Pokemon" images or assets, this is a nonprofit fan project for educational purposes. This app exists to demonstrate coding techniques pertaining to database manipulation, alterable number generation algorithms, and user interface features. The "Pokemon" themed assets were borrowed from an open-source external API that I did not create. Any assets could replace the images found in the database.
+Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research.
+Fair use is a use permitted by copyright statute that might otherwise be infringing.
+Non-profit, educational or personal use tips the balance in favor of fair use.*
+
+
+
+**POCKET MONSTERS PACK SIMULATOR** is a web app developed in React.js along with HTML5, CSS3, and JSON Server.
+PM Pack Sim provides users with the joy of collecting Trading Cards. The App uses an API containing over 400 unique cards, as well as a database of the users cards. One page allows the user open booster packs containing (these are randomly pulled from a chosen set of cards). While some card packs are still available at the average retail store, some card packs have nearly been lost to history for almost 25 years. This app allows users to simulate the experience of opening and collecting cards that they may have not had the opportunity to collect in real life. One of the primary reasons I wanted to develop this web app was to relive fun childhood memories of opening booster packs and the joy that came with pulling rare and flashy looking cards. I hope this app provides a similar positive experience to other people.
+
+
+
 
 <img width="1185" alt="TITLE1PIC" src="https://github.com/MaxAguilar712/FrontendCapstonePKMN/assets/143422478/d0497b69-3ec8-4a25-a32f-0270e8e623db">
 
