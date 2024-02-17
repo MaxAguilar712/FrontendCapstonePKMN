@@ -1,7 +1,7 @@
 
 import { useNavigate } from "react-router-dom";
 import "./Booster.css"
-import { BSCRPacker, BSUCPacker, BSCPacker, BSEPacker } from './PackBuilder';
+import { BS2CRPacker, BS2UCPacker, BS2CPacker, BS2EPacker } from './PackBuilderBaseSet2';
 import { useState, useEffect } from 'react';
 import React from "react";
 
@@ -12,32 +12,32 @@ const activeUserObject = JSON.parse(localActiveUser)
 
 
 
-function BaseSetBooster() { 
+function BaseSet2Booster() { 
   const navigate = useNavigate()
-  const [boosterPack, setBoosterPack] = useState([]);
-  const [cards, setCards] = useState([]);
+  const [boosterPackBS2, setBoosterPackBS2] = useState([]);
+  const [cardsBS2, setCardsBS2] = useState([]);
 
   const [selectedDiv, setSelectedDiv] = useState([]);
 
   useEffect(
     () => {
-      const BSCR = BSCRPacker()
-      const BSUC = BSUCPacker()
-      const BSC = BSCPacker()
-      const BSE = BSEPacker()
-      let bPackArray = [BSCR, BSUC, BSC, BSE]
-      setBoosterPack(bPackArray.flat())
+      const BS2CR = BS2CRPacker()
+      const BS2UC = BS2UCPacker()
+      const BS2C = BS2CPacker()
+      const BS2E = BS2EPacker()
+      let bPackArray = [BS2CR, BS2UC, BS2C, BS2E]
+      setBoosterPackBS2(bPackArray.flat())
     },
     [] // When this array is empty, you are observing initial component state
   )
 
     const taco = (i) => {
-     if(cards[i]){  
+     if(cardsBS2[i]){  
        return fetch("http://localhost:8088/cards", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"},
-      body: JSON.stringify(cards[i])
+      body: JSON.stringify(cardsBS2[i])
       })
       .then(r => r.json() )
       .then(() =>{
@@ -49,7 +49,7 @@ function BaseSetBooster() {
 
   const handleClick = (event) => {
     event.target.classList.toggle('unclickable')
-    cards.push({
+    cardsBS2.push({
       userId: activeUserObject.id,
       image: event.target.src,
       isFavorite: false
@@ -65,10 +65,10 @@ function BaseSetBooster() {
  
 
           {
-      boosterPack.map( booster => {
+      boosterPackBS2.map( boosterBS2 => {
         return(
-          <div className="boosterpack" key={booster.id} >
-            <p className="boosterContainer" > <img className="booster" src={booster.images?.large} id={booster.id} onClick={handleClick} /> </p>
+          <div className="boosterpack" key={boosterBS2.id} >
+            <p className="boosterContainer" > <img className="booster" src={boosterBS2.images?.large} id={boosterBS2.id} onClick={handleClick} /> </p>
           </div>
 
         )
@@ -81,13 +81,13 @@ event.preventDefault()
 // cards.forEach(x, index => {
 //   if(index === 0 ){
 
-cards.forEach(card => {
+cardsBS2.forEach(cardBS2 => {
 
      fetch("http://localhost:8088/cards", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"},
-      body: JSON.stringify(card)
+      body: JSON.stringify(cardBS2)
       }).then (
         r => r.json()
       ) .then()
@@ -101,7 +101,7 @@ navigate("/Booster")
     );
   }
 
-  export default BaseSetBooster;
+  export default BaseSet2Booster;
 
 
   

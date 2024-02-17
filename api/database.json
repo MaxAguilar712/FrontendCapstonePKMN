@@ -18,14 +18,81 @@
       "name": "",
       "fullName": "Max Aguilar",
       "id": 3
+    },
+    {
+      "email": "beta@tester.com",
+      "password": "fortnite",
+      "name": "",
+      "fullName": "Beta tester #1",
+      "id": 4
     }
   ],
   "cards": [
     {
       "userId": 1,
+      "image": "https://images.pokemontcg.io/base1/4_hires.png",
+      "isFavorite": true,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "image": "https://images.pokemontcg.io/base3/5_hires.png",
+      "isFavorite": true,
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "image": "https://images.pokemontcg.io/base1/5_hires.png",
+      "isFavorite": false,
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "image": "https://images.pokemontcg.io/base3/17_hires.png",
+      "isFavorite": false,
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "image": "https://images.pokemontcg.io/base2/20_hires.png",
+      "isFavorite": true,
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "image": "https://images.pokemontcg.io/base5/21_hires.png",
+      "isFavorite": false,
+      "id": 19
+    },
+    {
+      "userId": 1,
+      "image": "https://images.pokemontcg.io/base3/4_hires.png",
+      "isFavorite": false,
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "image": "https://images.pokemontcg.io/base1/15_hires.png",
+      "isFavorite": false,
+      "id": 21
+    },
+    {
+      "userId": 1,
       "image": "https://images.pokemontcg.io/base1/10_hires.png",
       "isFavorite": true,
-      "id": 1
+      "id": 22
+    },
+    {
+      "userId": 1,
+      "image": "https://images.pokemontcg.io/base1/2_hires.png",
+      "isFavorite": true,
+      "id": 23
+    },
+    {
+      "userId": 1,
+      "image": "https://images.pokemontcg.io/base3/26_hires.png",
+      "isFavorite": false,
+      "id": 24
     }
   ]
 }

@@ -9,6 +9,11 @@ import { Register } from "../auth/Register";
 import { Login } from "../auth/Login";
 import { Authorized } from "./Authorized";
 import "./View.css"
+import JungleSetBooster from "../components/booster/JungleSetBooster";
+import FossilSetBooster from "../components/booster/FossilSetBooster";
+import RocketSetBooster from "../components/booster/RocketSetBooster";
+import BaseSet2Booster from "../components/booster/BaseSet2Booster";
+
 
 <div className='Dashboard'>
 	<header className='App-header'>
@@ -41,10 +46,15 @@ export const ApplicationViews = () => {
 						<Route path='/Gallery' element={<Gallery />} />
 						<Route path='/Booster' element={<Booster />} />
 						<Route path='/Booster/BaseSet' element={<BaseSetBooster />} />
+						<Route path='/Booster/JungleSet' element={<JungleSetBooster />} />
+						<Route path='/Booster/FossilSet' element={<FossilSetBooster />} />
+						<Route path='/Booster/BaseSet2' element={<BaseSet2Booster />} />
+						<Route path='/Booster/RocketSet' element={<RocketSetBooster />} />
 						<Route path='/Collection' element={<Collection />} />  
 						   <Route path="/" element={
                 <>
-                    {/* <h1>POKEMON TCG SIM</h1> */}
+                    <h1 className="FrontTitle">POCKET MONSTERS PACK SIMULATOR</h1>
+	<h2> COLLECT 441 UNIQUE CARDS </h2>
                     <div className="mainImage">
 						<img src={"https://krisnextgen.files.wordpress.com/2017/07/charizard.png?w=670"} />
 					</div>
