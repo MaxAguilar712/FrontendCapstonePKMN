@@ -9,17 +9,6 @@ let E = resultEnergy
 
 
 
-// export function BSRHPacker() {
-//         console.log(RHR[(Math.floor(Math.random() * RHR.length))]);
-//     }
-//     BSRHPacker();
-
-
-// export function BSRPacker() {
-//     console.log(RR[(Math.floor(Math.random() * RR.length))]);
-// }
-// BSRPacker();
-
 export function BSCRPacker() {
     const n = 1; // number of elements we want to get
     const shuffledArray = CR.sort(() => 0.5 - Math.random()); // shuffles array
@@ -67,11 +56,7 @@ const BSUC = BSUCPacker()
 const BSC = BSCPacker()
 const BSE = BSEPacker()
 
-// console.log(BSCR)
-// console.log(BSUC)
-// console.log(BSC)
-// console.log(BSE)
 
 export let BoosterPack = [BSCR, BSUC, BSC, BSE]
 
-console.log(BoosterPack)
+// console.log(BoosterPack)

@@ -6,3 +6,45 @@ img {
     height: 25%;
     width: auto
 }
+
+h2{
+  transform: skew(#{$rotationAmt}deg) rotate(#{$rotationAmt}deg);
+  grid-area: text;
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 10vmin;
+  margin: 0;
+  padding: 30px;
+  color: #1d9099;
+  text-shadow: 0.5vmin 0.5vmin 0 #E79C10, -0.5vmin -0.5vmin 0 #D53A33;
+
+
+}
+
+
+.FrontTitle {
+
+   margin: 10%;
+        position: absolute;
+        top: 50%; 
+        right: 30%;
+        transform: translate(50%,-50%);
+        text-transform: uppercase;
+        font-family: verdana;
+        font-size: 5em;
+        font-weight: 700;
+        color: #3d72f7;
+        text-shadow: 1px 1px 1px #183a90,
+            1px 2px 1px #183a90,
+            1px 3px 1px #183a90,
+            1px 4px 1px #183a90,
+            1px 5px 1px #183a90,
+            1px 6px 1px #183a90,
+            1px 7px 1px #183a90,
+            1px 8px 1px #183a90,
+            1px 9px 1px #183a90,
+            1px 10px 1px #183a90,
+        1px 18px 6px rgba(16,16,16,0.4),
+        1px 22px 10px rgba(16,16,16,0.2),
+        1px 25px 35px rgba(16,16,16,0.2),
+        1px 30px 60px rgba(16,16,16,0.4);
+    }
