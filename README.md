@@ -9,24 +9,29 @@ Non-profit, educational or personal use tips the balance in favor of fair use.*
 PM Pack Sim provides users with the joy of collecting Trading Cards. The App uses an API containing over 400 unique cards, as well as a database of the users cards. One page allows the user open booster packs containing (these are randomly pulled from a chosen set of cards). While some card packs are still available at the average retail store, some card packs have nearly been lost to history for almost 25 years. This app allows users to simulate the experience of opening and collecting cards that they may have not had the opportunity to collect in real life. One of the primary reasons I wanted to develop this web app was to relive fun childhood memories of opening booster packs and the joy that came with pulling rare and flashy looking cards. I hope this app provides a similar positive experience to other people.
 
 
+&nbsp; 
 
-
+- Home Page
 <img width="1185" alt="TITLE1PIC" src="https://github.com/MaxAguilar712/FrontendCapstonePKMN/assets/143422478/d0497b69-3ec8-4a25-a32f-0270e8e623db">
 
+&nbsp; 
 
+- Gallery of all Cards (only 70 shown in screenshot)
 <img width="1018" alt="GALLERY1PIC" src="https://github.com/MaxAguilar712/FrontendCapstonePKMN/assets/143422478/ad5d63ef-b46d-45cd-8e66-6d73be2dc491">
 
+&nbsp; 
 
-
+- Booster Packs
 <img width="568" alt="BOOSTER1PIC" src="https://github.com/MaxAguilar712/FrontendCapstonePKMN/assets/143422478/8e249bec-5e69-4c9c-a0c8-55cbe6797f36">
 
+&nbsp; 
 
-
+- Opened Booster Pack
 <img width="1145" alt="BOOSTER2PIC" src="https://github.com/MaxAguilar712/FrontendCapstonePKMN/assets/143422478/1b1d1d16-545a-4806-892e-a4a56774ff7f">
 
+&nbsp; 
 
-
-
+- Personal Collection
 <img width="1052" alt="COLLECTION1PIC" src="https://github.com/MaxAguilar712/FrontendCapstonePKMN/assets/143422478/b67d68aa-38e9-489d-91f9-097e2422bf1b">
 
 
