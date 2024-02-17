@@ -1,3 +1,53 @@
+
+<img width="1185" alt="TITLE1PIC" src="https://github.com/MaxAguilar712/FrontendCapstonePKMN/assets/143422478/d0497b69-3ec8-4a25-a32f-0270e8e623db">
+
+
+<img width="1018" alt="GALLERY1PIC" src="https://github.com/MaxAguilar712/FrontendCapstonePKMN/assets/143422478/ad5d63ef-b46d-45cd-8e66-6d73be2dc491">
+
+
+
+<img width="568" alt="BOOSTER1PIC" src="https://github.com/MaxAguilar712/FrontendCapstonePKMN/assets/143422478/8e249bec-5e69-4c9c-a0c8-55cbe6797f36">
+
+
+
+<img width="1145" alt="BOOSTER2PIC" src="https://github.com/MaxAguilar712/FrontendCapstonePKMN/assets/143422478/1b1d1d16-545a-4806-892e-a4a56774ff7f">
+
+
+
+
+<img width="1052" alt="COLLECTION1PIC" src="https://github.com/MaxAguilar712/FrontendCapstonePKMN/assets/143422478/b67d68aa-38e9-489d-91f9-097e2422bf1b">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
