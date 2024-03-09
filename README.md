@@ -13,7 +13,7 @@ Non-profit, educational or personal use tips the balance in favor of fair use.* 
 
 
 
-**POCKET MONSTERS PACK SIMULATOR** is a web app developed in React.js along with HTML5, CSS3, and JSON Server.
+**RETRO TRADING CARD SIMULATOR** is a web app developed in React.js along with HTML5, CSS3, and JSON Server.
 PM Pack Sim provides users with the joy of collecting Trading Cards. The App uses an API containing over 400 unique cards, as well as a database of the users cards. One page allows the user open booster packs containing (these are randomly pulled from a chosen set of cards). While some card packs are still available at the average retail store, some card packs have nearly been lost to history for almost 25 years. This app allows users to simulate the experience of opening and collecting cards that they may have not had the opportunity to collect in real life. One of the primary reasons I wanted to develop this web app was to relive fun childhood memories of opening booster packs and the joy that came with pulling rare and flashy looking cards. I hope this app provides a similar positive experience to other people.
 
 
