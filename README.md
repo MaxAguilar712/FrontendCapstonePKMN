@@ -5,7 +5,6 @@
 
 
 
-
 <h6> DISCLAIMER: *I do not own the rights to any "Pocket Monsters" or "Pokemon" images or assets, this is a nonprofit fan project for educational purposes. This app exists to demonstrate coding techniques pertaining to database manipulation, alterable number generation algorithms, and user interface features. The "Pokemon" themed assets were borrowed from an open-source external API that I did not create. Any assets could replace the images found in the database.
 Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research.
 Fair use is a use permitted by copyright statute that might otherwise be infringing.
